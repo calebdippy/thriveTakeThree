@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script src="slide.js"></script>
+    <script src="store.js"></script>
+    <body class="body">
+    <div class=container>
+        <div class=top>
+        <header class="main-header">
+            <nav class="nav main-nav store-nav">
+                 <ul>
+                    <li><a href="index.html"> <img src="Images/logo.png" class="logo"> </a ></li>
+                    <li><a href="index.html"> HOME</a ></li>
+                    <li><a href="events.html">WHAT'S OUT THERE</a></li>
+                     <div>
+                     <li><a>WELLBEING ∇</a>
+                        <ul class=dropdown>
+                            <li><a href="problem-1.html">Problem 1</a></li>
+                            <li><a href="problem-2.html">Problem 2</a></li>
+                            <li><a href="problem-3.html">Problem 3</a></li>
+                        </ul>
+                    
+                    </li>
+                    </div>
+                    <li><a href="store.html">STORE</a></li>
+                </ul>
+            </nav>
+<!--            <hr>-->
+        </header>
+<!--This section is directly below the header-->
+             <div class=space></div>
+             <section class="container">   
+            <subheading class="subheading subheading-1">Surfing for Farmers</subheading>
+                 
+            <div class=shop-items>  
+                <div class="shop-item-1">
+                    <img class="shop-item-image" src="Images/crew.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary btn-left" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/t-shirt.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$49.99</span>
+                        <button class="btn btn-primary btn-middle"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/hoody.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$49.99</span>
+                        <button class="btn btn-primary btn-right " type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container section">
+            <subheading class=subheading>Groundswell</subheading>
+            <div class=shop-items>  
+                
+                <div class="shop-item-1">
+                    <img class="shop-item-image" src="Images/hat.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary btn-left" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/black-beanie.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$49.99</span>
+                        <button class="btn btn-primary btn-middle"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img class="shop-item-image" src="Images/blue-beanie.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$49.99</span>
+                        <button class="btn btn-primary btn-right " type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                
+            </div>
+            </section>     
+            
+            <!-- This is the cart section -->
+        <div class=cart-subheading>
+        <subheading class="subheading">CART</subheading>
+        </div>
+         <section class="cart-section container section">
+            <div class="cart-row">
+                <div class=cart-header-first>
+                <span class="cart-item cart-header-1">ITEM</span>
+                </div>
+                <span class="cart-price cart-header-2">PRICE</span>
+                <span class="cart-quantity cart-header-3">QUANTITY</span>
+            </div>
+             <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/crew.png" width="100" height="100">
+                    </div>
+                    <span class="cart-price cart-column">$14.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                 <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/t-shirt.png" width="100" height="100">
+                    </div>
+                    <span class="cart-price cart-column">$49.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                 <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/hoody.png" width="100" height="100">
+                    </div>
+                    <span class="cart-price cart-column">$49.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <p class="cart-total-price">$114.97</p>
+                <button class="btn btn-purchase" type="button">PURCHASE</button>
+            </div>
+        </section>
+
+            <footer class="main-footer">
+            <div class="container main-footer-container">
+                <ul class="nav footer-nav">
+                    <li><img src="Images/facebook.png" height= 100px></li>
+                    <li><img src="Images/twitter.png" height= 100px></li>
+                    <li><img src="Images/instagram.png" height= 100px></li>
+                </ul>
+            </div>
+        </footer>
+      </div>
+    </body>
+</html>

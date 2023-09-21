@@ -1,0 +1,502 @@
+@font-face{
+    font-family: "ubuntu";
+    src: url(fonts/Ubuntu-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+.top{
+    position:relative;
+    width:100vw;
+}
+
+.main-header{
+    background-blend-mode: multiply;
+    color: white;
+}
+
+.main-nav li{
+    padding: 0%;
+    float:left;
+    background-color: white;
+    opacity: 90%;
+    height: 60px; 
+    position:relative;
+    display:inline;
+    width:20vw;
+    margin-bottom: 25vh;
+}
+
+.store-nav li{
+    margin-bottom: 10vh;
+    border-bottom: 8px solid;
+    border-bottom-color: chartreuse;
+}
+
+.nav ul{
+    margin:0px;
+}
+
+.nav a {
+    color: black;
+    opacity: 100%;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:ubuntu;
+}
+
+
+.dropdown li{
+     margin-bottom:0px;
+     border-bottom: 0px;
+     opacity:100%;
+}
+
+ul li:hover ul.dropdown{
+    list-style:none;
+    visibility: visible;
+}
+
+.nav a{
+    font-family:ubuntu;
+    font-weight:bold;
+    color: black; 
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    display:inline;
+}
+.background{ 
+    height:100vh;
+    width:100vw;
+    position:fixed;
+}
+
+.dropdown{
+    width:100%;
+    position:absolute;
+    z-index: 1;
+    visibility: hidden;
+
+}
+.title{
+    text-align: center;
+    margin:0px;
+    font-size: 7vw;
+    font-family:ubuntu;
+    font-weight: normal;
+    color: white;
+    font-weight:bold;
+    margin-bottom: 50vh;
+}
+
+.container{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    background-color:transparent;
+    position:relative;
+    background-color:rgba(255, 255, 255, 0.7);
+    ;
+}
+.section{
+    margin-top:40vh;
+}
+.space{
+    height:10vh;
+    min-height: 40px; 
+}
+
+
+.content-section{
+    display:flex;
+}
+.content{
+    background-color: white;
+}
+
+.section-header{
+    font-family:ubuntu;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    height:70px;
+    background-color: white;
+    list-style: none;
+    border-top: 8px solid;
+    border-top-color: blue;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-nav li{
+    float:left;
+    list-style: none;
+    width:33.3%;
+}
+
+.footer-nav img{
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
+    margin-top: 10px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-danger{
+    background-color:crimson;
+    opacity:100%;
+    color:white;
+    border-radius:10px;
+    border-color: crimson;;
+    font-family:ubuntu; 
+    
+    
+}
+.btn-danger:hover{
+    background-color:red;
+    opacity:70%;
+}
+
+.btn-primary{
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color:#777;
+}
+
+.logo{
+    height: 50px;
+    width:auto;
+    border-radius: 100px;
+}
+.logo-name{
+    float:right;
+    color:blue;
+    font-size:calc(13.8px + 1vw);
+}
+.container logo{
+    position: absolute;
+}
+.subheading{
+    text-align: center;
+    font-size:5vw;
+    font-family:ubuntu;
+    color:black;
+    font-weight:bold;
+    margin-left:34vw;
+}
+.none{
+    margin-left:0;
+}
+.subheading-1{
+    margin-left:29vw;
+}
+
+.cart-subheading{
+    margin-top:40vh;
+    margin-left:10vw;
+}
+
+
+.subheading-home{
+    text-align: left;
+    font-size:2.5em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 50px;
+    font-weight:bold;
+    
+}
+.subheading-small{
+    text-align: left;
+    font-size: 2em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 10px;
+    margin-right:10px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+
+}
+.subheading-small-left{
+    text-align: left;
+    font-size:2em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 10px;
+    font-weight:bold;
+}
+.subheading-small-right{
+    text-align: left;
+    font-size:2em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 0vw;
+    font-weight:bold;
+    margin-left:45vw;
+    
+}
+
+.small-images{
+    align-items:left;
+    margin-left:0;
+    margin-top:25px;
+    height: 120px;
+    width: 180px;
+}
+
+.big-images{
+    height: 34vw;
+    width:51vw;
+    margin: 20px;
+    margin-left:25.5vw;
+    margin-top:25px;
+    padding: 2vw;
+    background-color: white;
+    border: 2vw solid white;
+}
+
+.white{
+    margin-left:23vw;
+    background-color: white;
+    margin-bottom: 12vh;
+    margin-top:2vh;
+    border: 2vw solid white;
+    border-style:double;
+    border-color: white blue;
+}
+
+.paragraph {
+    text-align: center;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left:18vh;
+    margin-right:18vh;
+    }
+
+.paragraph-home{
+    text-align: center;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: white;
+    }
+
+.paragraph-small {
+  
+    text-align: left;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top:100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+    }
+
+
+.align-left {
+    
+    align-items:right;
+    height:500px;
+    text-align: left;
+    margin-right: 20vh;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    width:40vw; 
+    min-width: 400px;
+    float:left;
+   
+}
+
+.align-left-1 {
+    width:300px;
+    float:none;
+    margin-left:5vw;
+}
+
+.align-right {
+    width:100%;
+    align-items:right;
+    text-align: right;
+    margin-left:40vw; 
+    margin-right: 10vw;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width:40vw;
+    min-width: 400px;
+    
+}
+
+.blue-box{
+    float:left;
+    width:50vw;
+    min-width: 400px;
+    background-color:blue;
+    padding: 50px;
+    
+}
+
+.green-box{
+    float:right;
+    width:50vw;
+    min-width: 400px;
+    background-color:greenyellow;
+    padding: 50px;
+    
+}
+
+.cart-price{
+    font-family: ubuntu;
+    color:black;
+    font-size: 18px;
+}
+.shop-items{
+    display:flex;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left:0;
+}
+.shop-item{
+    margin-left: 20%;
+}
+
+.shop-item-1{
+    margin-left: 0;
+}
+
+.shop-item-image{
+    height:auto;
+    width:20vw;
+}
+
+.shop-item-price{
+    padding:12px;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.cart-row{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+.cart-header-1{
+    margin-left: 12vw;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-header-2{
+    margin-left: 16.5vw;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-header-3{
+    margin-left:15vw;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-header-first{
+    margin-left:40px;
+}
+.cart-item-price{
+    display:flex;
+}
+.cart-column{
+    align-items: center;
+    justify-content:center;
+    margin-right: 15vw;
+    
+}
+
+.cart-total{
+    margin-left:65vw;;
+}
+.btn-purchase{
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-bottom:50px;
+    margin-left: 35px;
+    margin-top: 10px
+}
+.cart-item-image{
+    margin-left:13vw;
+}
+
+.cart-item-title{
+    margin-left: 20%;
+}
+.cart-quantity-input{
+    width:13vw;
+    min-width:78px;
+    border-radius:10px;
+    padding-left:10px
+
+}
+.cart-total-title{
+    font-family: ubuntu;
+    color:black;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 53px;
+}
+.cart-total-price{
+    font-family: ubuntu;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 43px;
+}
